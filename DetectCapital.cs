@@ -1,7 +1,15 @@
 ﻿namespace DetectCapitalString
 {
+    /// <summary>
+    /// Class that verifies whether a word follows correct capitalization rules.
+    /// </summary>
     public class DetectCapital
     {
+        /// <summary>
+        /// Checks if the given word uses capitalization correctly.
+        /// </summary>
+        /// <param name="word">The input word consisting of uppercase and lowercase letters.</param>
+        /// <returns>Returns true if the word follows valid capitalization rules; otherwise, returns false.</returns>
         public static bool DetectCapitalUse(string word)
         {
             if (string.IsNullOrEmpty(word)) return false;
