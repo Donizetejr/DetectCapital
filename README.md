@@ -1,0 +1,2 @@
+# DetectCapital
+Detect Capital
